@@ -1,0 +1,23 @@
+###
+POST http://localhost:9000/api/user/create
+Content-Type: application/json
+
+{
+    "email" : "nadila@gmail.com",
+    "password" : "qwe"
+}
+
+###
+POST  http://localhost:9000/api/user/read
+
+
+###
+POST  http://localhost:9000/api/user/read
+Content-Type: application/json
+
+{
+    "filter" : {
+        "email" : "nadila@gmail.com"
+    }
+}
+
